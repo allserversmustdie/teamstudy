@@ -9,12 +9,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameServer", "GameServer.vc
 		{6F2FF6DC-7854-4121-9A1B-9C475B609209} = {6F2FF6DC-7854-4121-9A1B-9C475B609209}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Base", "..\..\Common\Lib\Base\Base.vcxproj", "{6F2FF6DC-7854-4121-9A1B-9C475B609209}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Base", "..\Common\Lib\Base\Base.vcxproj", "{6F2FF6DC-7854-4121-9A1B-9C475B609209}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SamdaNet", "..\..\Common\Lib\SamdaNet\SamdaNet.vcxproj", "{F28A7954-8CBE-45F3-9515-AF03A369FC86}"
-	ProjectSection(ProjectDependencies) = postProject
-		{6F2FF6DC-7854-4121-9A1B-9C475B609209} = {6F2FF6DC-7854-4121-9A1B-9C475B609209}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SamdaNet", "..\Common\Lib\SamdaNet\SamdaNet.vcxproj", "{F28A7954-8CBE-45F3-9515-AF03A369FC86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

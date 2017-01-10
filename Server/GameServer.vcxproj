@@ -102,7 +102,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Common\Lib\Base;..\..\Common\Lib\SamdaNet;..\..\Common\ExternLib\Zlib\Include;..\..\Common\ExternLib\MySQL\Include;..\..\Common\ExternLib\MessagePack\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Common\Lib\Base;..\Common\Lib\SamdaNet;..\Common\ExternLib\Zlib\Include;..\Common\ExternLib\MySQL\Include;..\Common\ExternLib\MessagePack\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <TreatWarningAsError>true</TreatWarningAsError>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
@@ -110,7 +110,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\..\Common\Lib\Base\Lib;..\..\Common\Lib\SamdaNet\Lib;..\..\Common\ExternLib\Zlib\Lib\x64;..\..\Common\ExternLib\MySQL\Lib\x64;..\..\Common\ExternLib\MessagePack\Lib\x64</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\Common\Lib\Base\Lib;..\Common\Lib\SamdaNet\Lib;..\Common\ExternLib\Zlib\Lib;..\Common\ExternLib\MySQL\Lib;..\Common\ExternLib\MessagePack\Lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>ws2_32.lib;Mswsock.lib;Base_d.lib;SamdaNet_d.lib;zlib-vs140-sgd.lib;libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
